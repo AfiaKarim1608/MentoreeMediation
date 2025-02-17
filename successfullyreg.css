@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+header h1 {
+    margin: 20px 0;
+    font-size: 24px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #000;
+}
+/* Navbar Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000;
+    padding: 20px 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    position: relative;
+    opacity: 0;
+    left: -100px;
+    transition: all 0.5s ease-out;
+}
+
+nav ul li a.animated {
+    opacity: 1;
+    left: 0;
+}
+
+nav ul li a:hover {
+    background-color: #f9def8; /* Light background color */
+    color: #000; /* Darker color for better readability */
+    padding: 5px 10px; /* Optional padding for better visual appearance */
+    border-radius: 5px; /* Optional rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+.hdn h1{
+    color: #573761;
+    margin-top: -80px;
+    font-size: 25px;
+
+}
+
+.Welcome h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #633c7a;
+}
+.features h2{
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+.pic1 img{
+    border-radius: 10px;
+    width: 400px;
+}
+.para {
+    font-size: 20px;
+    font-family: "Baskerville (serif)" ;
+    
+}
+.image1 img{
+    
+    border-radius: 20px;
+    margin-right: 900px;
+    
+}
+.image1 h2{
+    color:#573761 ;
+    margin-right: 900px;
+    margin-bottom: -280px;
+    
+}
+.image2 img{
+    
+    border-radius: 20px;
+    margin-right: 100px;
+    
+}
+.image2 h2{
+    color:#573761 ;
+    margin-right: 100px;
+    margin-bottom: -280px;
+}
+.image3 img{
+    
+    border-radius: 20px;
+    margin-right: -800px;
+    
+}
+.image3 h2{
+    color:#573761 ;
+    margin-right: -800px;
+    margin-bottom: 60px;
+}
+.desc {
+    font-size: 20px;
+    margin-bottom: 90px;
+
+}
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -10px;
+    margin-top: 1000px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
